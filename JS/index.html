@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GAME : TIC TAC TOE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main class="console">
+      <header>틱-택-토 게임</header>
+      <section class="info">
+        <div class="info__team">
+          <span id="team__O">O</span>
+          |
+          <span id="team__X" class="turn">X</span>
+        </div>
+        <div class="info__score">
+          <span id="score__O">0</span>
+          :
+          <span id="score__X">0</span>
+        </div>
+      </section>
+      <section class="display">
+        <table>
+          <tbody>
+            <tr>
+              <td class="square" id="0"></td>
+              <td class="square" id="1"></td>
+              <td class="square" id="2"></td>
+            </tr>
+            <tr>
+              <td class="square" id="3"></td>
+              <td class="square" id="4"></td>
+              <td class="square" id="5"></td>
+            </tr>
+            <tr>
+              <td class="square" id="6"></td>
+              <td class="square" id="7"></td>
+              <td class="square" id="8"></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="menu">
+        <button id="reset-button">게임 리셋하기</button>
+      </section>
+    </main>
+    <footer>
+      2021 woowahan tech camp - gdpark
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

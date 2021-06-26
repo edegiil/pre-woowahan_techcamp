@@ -1,0 +1,98 @@
+html, body {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #4d4d4d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+div {
+  box-sizing: content-box;
+  color: #2e2e2e
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  font-family: 'Do Hyeon', sans-serif;
+  color: white;
+  cursor: pointer;
+}
+
+.console {
+  width: 350px;
+  background-color: #97befc;
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.console header {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.console .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info__team .turn {
+  font-weight: bold;
+  color: red;
+}
+
+.console .info__score {
+  font-size: 32px;
+}
+
+.console .display table {
+  width: 100%;
+  border-collapse: collapse;;
+}
+
+.console .display td {
+  text-align: center;
+  font-size: 60px;
+  width: 114px;
+  height: 114px;
+  cursor: pointer;
+}
+.console .display tr:not(:last-child) {
+  border-bottom: 2px solid #224dab;
+}
+.console .display td:not(:nth-child(3n)) {
+  border-right: 2px solid #224dab;
+}
+
+.console .display tbody .pick__O {
+  color: #636363;
+}
+.console .display tbody .pick__X {
+  color: #e0e0e0;
+}
+
+footer {
+  font-size: 12px;
+  color: grey;
+  margin-top: 16px;
+}
