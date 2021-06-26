@@ -7,6 +7,7 @@
 [데모 페이지]()
 
 # 2. JS
+## 틱-택-토 게임
 <img width="886" alt="JS과제 시연" src="https://user-images.githubusercontent.com/35324795/123513277-40dd1a00-d6c7-11eb-9e20-abb799853db1.png">
 
 [코드](https://github.com/edegiil/pre-woowahan_techcamp/tree/main/JS)
