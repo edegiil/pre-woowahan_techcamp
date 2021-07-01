@@ -1,0 +1,24 @@
+{
+  "name": "pre-woowahan_techcamp",
+  "version": "1.0.0",
+  "description": "우아한테크캠프 4기 사전 연습과제",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edegiil/pre-woowahan_techcamp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edegiil/pre-woowahan_techcamp/issues"
+  },
+  "homepage": "https://github.com/edegiil/pre-woowahan_techcamp#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
